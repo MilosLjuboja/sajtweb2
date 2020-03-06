@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+li{
+    list-style-type: none;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: chocolate;
+}
+#navigacija{
+    display: flex;
+}
+#logo{
+    background-color: #ff0808;
+}
