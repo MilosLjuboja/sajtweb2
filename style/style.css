@@ -6,18 +6,64 @@
 a{
     text-decoration: none;
     color: #000000;
+    font-size: 20px;
 }
 li{
     list-style-type: none;
 }
-header{
-    width: 100%;
-    height: 50px;
-    background-color: chocolate;
+a,ul li a,#naslov{
+    color: #FFFFFF;
+    font-family: 'Spartan', sans-serif;
+}
+.nevidljiv{
+    display: none;
+}
+ul li a i{
+    margin-left: 5px;
+}
+ul li a:hover{
+    padding-bottom: 5px;
+    border-bottom: solid 1px #FFFFFF;
 }
 #navigacija{
+    height: 60px;
+    background-color: #A7172A;
     display: flex;
+    align-items: center;
 }
 #logo{
-    background-color: #ff0808;
+    text-align: center;
+}
+#logo a{
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
+#lista{
+    display: flex;
+    justify-content: space-around;
+}
+.podmeni{
+    position: absolute;
+    background-color: #A7172A;
+    padding: 15px;
+    line-height: 2;
+}
+#cover{
+    width: 100%;
+    height: 95vh;
+    background-image: url('../img/cover2.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+#naslov{
+    background-color: #A7172A;
+    padding: 20px;
+    width: 300px;
+    position: relative;
+    top: 160px;
+    left: 400px;
+    font-size: 20px;
+}
+#naslov h2{
+    padding-top: 20px;
 }
