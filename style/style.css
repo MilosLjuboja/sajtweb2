@@ -13,6 +13,9 @@ li{
 }
 a,ul li a,#naslov{
     color: #FFFFFF;
+    
+}
+a,ul li a,#naslov,#whatWeDo,#about{
     font-family: 'Spartan', sans-serif;
 }
 .nevidljiv{
@@ -56,9 +59,9 @@ ul li a:hover{
     background-position: bottom;
 }
 #naslov{
-    background-color: #A7172A;
+    background-color: rgba(167, 23, 42, 0.85);
     padding: 20px;
-    width: 300px;
+    width: 500px;
     position: relative;
     top: 160px;
     left: 400px;
@@ -66,4 +69,36 @@ ul li a:hover{
 }
 #naslov h2{
     padding-top: 20px;
+}
+#whatWeDo{
+    width: 100%;
+    margin: 50px 0px;
+    line-height: 25px;
+}
+#whatWeDo h2{
+    margin-bottom: 10px;
+}
+#whatWeDo img{
+    width: 100%;
+}
+#baner{
+    height: 400px;
+    background-image: url('../img/baner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#about{
+    margin: 20px 0px;
+    text-align: center;
+}
+#about h2{
+    margin: 20px 0px;
+    border-bottom: 1px solid #A7172A;
+}
+#aboutTekst{
+    height: 280px;
+}
+#slajder img{
+    height: 500px;
 }
