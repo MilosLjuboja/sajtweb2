@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 a{
     text-decoration: none;
     color: #000000;
@@ -15,7 +18,7 @@ a,ul li a,#naslov{
     color: #FFFFFF;
     
 }
-a,ul li a,#naslov,#whatWeDo,#about{
+a,ul li a,#naslov,#whatWeDo,#about,#contact{
     font-family: 'Spartan', sans-serif;
 }
 .nevidljiv{
@@ -88,17 +91,45 @@ ul li a:hover{
     background-size: cover;
     background-attachment: fixed;
 }
-#about{
+#about,#contact{
     margin: 20px 0px;
     text-align: center;
 }
-#about h2{
+#about h2,#contact h2{
     margin: 20px 0px;
     border-bottom: 1px solid #A7172A;
 }
 #aboutTekst{
-    height: 280px;
+    /* height: 280px; */
+    text-align: justify;
+    
 }
-#slajder img{
-    height: 500px;
+#slajder{
+    height: 400px;
+    margin-top: 20px;
+    background-image: url('../img/about1.jpg');
+}
+tr td input,textarea{
+    margin: 5px;
+    width: 100%;
+    border-radius: 10%;
+}
+#message{
+    /* width: ; */
+}
+#ikonice{
+    display: block;
+    margin-top: 20px;
+}
+
+.ikonice{
+    text-align: left;
+    font-size: 34px;
+    color: #A7172A;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:600px){
+    #naslov{
+        display: none;
+    }
 }
