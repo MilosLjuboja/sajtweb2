@@ -109,27 +109,63 @@ ul li a:hover{
     margin-top: 20px;
     background-image: url('../img/about1.jpg');
 }
-tr td input,textarea{
-    margin: 5px;
+#forma table tr td input{
+    margin: 10px;
+    border-radius: 5%;
+    
     width: 100%;
-    border-radius: 10%;
+    font-size: 16px;
 }
-#message{
-    /* width: ; */
+textarea{
+    height: 100px; 
+    margin:10px;
+    border-radius: 5%;
+    resize: none;
+    font-size: 16px;
+    
 }
 #ikonice{
     display: block;
     margin-top: 20px;
+    padding-left: 100px;
 }
 
 .ikonice{
     text-align: left;
     font-size: 34px;
     color: #A7172A;
-    margin-bottom: 20px;
+    margin-bottom: 20px;  
+    margin-top: 20px;
+}
+.ikonice p{
+    font-size: 16px;
+    padding-top: 5px;
+    color: #000000;
+}
+.ikonice i{
+    float: left;
+    margin-right: 10px;
 }
 @media screen and (max-width:600px){
     #naslov{
         display: none;
+    }
+    #forma table tr td input{
+        margin: 0px;
+    }
+    textarea{
+        height: 100px; 
+        margin:0px;
+        border-radius: 5%;
+        resize: none;
+        font-size: 16px;
+        width: 100%;
+    }
+    #ikonice{
+        display: block;
+        padding-left: 30px;
+    }
+    .ikonice p{
+        font-size: 16px;
     }
 }

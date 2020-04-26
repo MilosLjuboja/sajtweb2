@@ -15,7 +15,7 @@ function slajder(){
         index++;
     }
     else{
-        index=1;
+        index=0;
     }
     setTimeout(slajder,2000)
 }
