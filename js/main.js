@@ -10,7 +10,7 @@ var niz=["about1.jpg","baner.jpg","cover.jpg"];
 var index=0;
 function slajder(){
     var divSlajder=document.getElementById('slajder');
-    divSlajder.style.backgroundImage=`url('../img/${niz[index]}')`
+    divSlajder.style.backgroundImage=`url('img/${niz[index]}')`
     if(index<niz.length-1){
         index++;
     }
